@@ -1,0 +1,22 @@
+{
+  "name": "query-the-fipe",
+  "version": "0.0.1",
+  "description": "Query your car's FIPE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlozovei/query-the-fipe.git"
+  },
+  "author": "Julio Lozovei <jlozovei@gmail.com> (https://jlozovei.dev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlozovei/query-the-fipe/issues"
+  },
+  "homepage": "https://github.com/jlozovei/query-the-fipe#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
