@@ -1,12 +1,12 @@
-var axios = require('axios');
+import axios from 'axios';
 
 axios
   .get('https://parallelum.com.br/fipe/api/v1/carros/marcas/58/modelos/7294/anos/2020-1')
-  .then(function(response) {
-    var data = response.data;
+  .then((response) => {
+    const { data } = response;
 
     console.log(data);
   })
-  .catch(function(err) {
+  .catch((err) => {
     console.error(err);
   });
